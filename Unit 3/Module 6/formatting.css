@@ -1,16 +1,16 @@
-#header {
+.header {
     background-color: green;
 }
 
-#nav {
+.nav {
     background-color: red;
 }
 
-#body {
+.body {
     background-color: yellow;
 }
 
-#footer {
+.footer {
     background-color: purple;
 }
 
