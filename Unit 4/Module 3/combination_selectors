@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combination of Selectors</title>
+    <style>
+        p.classred {
+            color: red;
+        }
+
+        h1, h2, h3 {
+            color: orange;
+        }
+
+        h4, h1.classyellow {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="classred">The instructions for my class say I need to be red.</p><br>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3><br>
+
+    <h4>Header 4 that is yellow.</h4>
+    <h2 class="classorange">Also in the same list are intructions for headers with my class to be yellow.</h2>
+</body>
+</html>
