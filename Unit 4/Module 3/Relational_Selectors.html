@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relational Selectors</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        h1+p {
+            color: orange;
+        }
+
+        .yellow > p {
+            color: yellow;
+        }
+
+        h2~p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Header 1</h1>
+    <p>Being controlled by the Adjacent Sibling director h1+p</p>
+        <p>I should be red, being controlled by the deacdent selector p</p>
+
+    <div class="yellow">
+        <p>Controlled by the child selector for this div</p>
+        <p>I should be red, being controlled by the deacdent selector p</p>
+    </div>
+    <div>
+        <h2>Header 2</h2>
+        <p>I should be green, controlled by the general sibling selector</p>
+        <p>I should be green, controlled by the general sibling selector</p>
+    </div>
+</body>
+</html>
