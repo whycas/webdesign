@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text position</title>
+    <style>
+.alignone {
+    text-align: left;
+}
+
+.aligntwo {
+    text-align: right;
+}
+
+.alignthree {
+    text-align: center;
+}
+
+.alignfour {
+    text-align: justify;
+}
+
+.identone {
+    text-indent: 50px;
+}
+    </style>
+</head>
+<body>
+    <h1 class="alignone">This is a sentence and some <span style="vertical-align: baseline;">words</span> will look different due to styles. This is <span style="vertical-align: sub;">another</span> sentence and some words will <span style="vertical-align: super;">look</span> different due to styles.</h1>
+    <h1 class="aligntwo">This <span style="vertical-align: top;">is</span> a sentence and some words will look different due to styles. This is another <span style="vertical-align: middle;">sentence</span> and some words will look different due to styles.</h1>
+    <h1 class="alignthree">This is a sentence and some words will <span style="vertical-align: bottom;">look</span> different due to styles. This is another sentence and some words will look different due to <span style="vertical-align: text-top;">styles.</span></h1>
+    <h1 class="alignfour">This is a sentence <span style="vertical-align: text-bottom;">and</span> some words will look different due to styles. <span style="vertical-align: -80%;">This</span> is another sentence and some words will look different due to styles.</h1>
+    <h1 class="identone">This is a sentence that should be influenced by the identone class.</h1>
+</body>
+</html>
