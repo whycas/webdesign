@@ -1,0 +1,22 @@
+body {
+    background-color: #4d784e;
+}
+
+.wethepeople {
+    font-family: cursive;
+    font-size: 30pt;
+    text-shadow: 1px 2px 1px pink;
+}
+
+h1 {
+     font-family: sans-serif;
+     font-weight: bold;
+     color: navy;
+     text-shadow: 1px 2px 1px pink;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: navy;
+}
