@@ -1,0 +1,12 @@
+My site will be a site related to my favorite video game, Trackmania.
+The first page will be an introduction to the game, how I was introducted to it, and what my experience so far has been like.
+The second page will be a top 3 or top 5 list of my favorite mapping styles to play, and I will have text and pictures.
+The third page will be a table of my top 10 best rankings as of this month on the Track of the Day maps, which I have tried to play daily ever since staritng the game.
+The two colors I know I will use are: #5abd8c (a mint green) and #4ac2e5 (a sky blue) which are the official logo colors of Trackmania. They are the colors most closely associated with the game.
+My text color might just be black, I don't think it is necessary to make the color anything special.
+I will try to use Monospace using the default Times New Roman font. While monoscape might not be the most professional-looking, this blog is largely unprofressional, it is just a personal blog.
+I enjoy how monospace looks.
+Other than this, my headers would be bolded. I might try Arial.
+The navigation bar will be in the top center of each page. The bar will have links to each of the three pages available on the site, so it is easy to move around.
+The navigation bar will probably be in a box with a different color.
+I will have a single column layour for my first and second pages. The last one is just a table, so no need to worry about the page structure for it.
